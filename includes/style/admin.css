@@ -1,0 +1,238 @@
+/* 
+    Document   : admin
+    Created on : 24 sept. 2010, 13:24:01
+    Author     : pirhoo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body {
+    padding:0px;
+    margin:0px;
+    font-size:13px;
+    background: #ecece4;
+    font-family:Verdana,Arial,sans-serif;
+}
+
+.footer {
+    width:800px;
+    margin:20px auto;
+    text-align:right;
+}
+
+#app {
+    width:800px;
+    margin:auto;
+    color:#737373;
+    
+    -moz-box-shadow:0px 5px 100px silver;
+    -khtml-box-shadow:0px 5px 100px silver;
+    -webkit-box-shadow:0px 5px 100px silver;
+    box-shadow:0px 5px 100px silver;
+}
+
+.msg-log {
+    padding:0px;
+    width:810px;
+    height:0px;
+
+    position:fixed;
+    z-index:888;
+    top:0px;
+    left:50%;
+    margin:0px;
+    margin-left:-405px;
+}
+
+.msg-log .bulle {
+    background:  #e2e2e2;
+    margin:0px;
+    padding:5px 10px 0px 10px;
+    border:1px solid white;
+    border-top:0px;
+
+    -moz-box-shadow:0px 5px 50px gray;
+    -khtml-box-shadow:0px 5px 50px gray;
+    -webkit-box-shadow:0px 5px 50px gray;
+    box-shadow:0px 5px 50px gray;
+}
+
+.msg-log ul {
+    margin:0px;
+    padding:0px;
+}
+
+.msg-log li {
+    list-style: none;
+    padding:3px 0px;
+    margin:0px;
+}
+.msg-log li .ui-icon {
+    float:left;
+    margin-top:2px;
+    margin-right:3px;
+}
+
+.back-app {
+    padding:5px;
+    margin-top:-55px;
+    font-weight: bold;
+    float:right;
+    font-weight:bold !important;
+}
+
+.back-app .ui-icon{
+    float:right;
+    margin-top:3px;
+}
+
+h1 {
+    width:800px;
+    padding:0px;
+    margin:20px auto;
+    font-family:Verdana,Arial,sans-serif;
+}
+
+h2 {
+    margin:10px 0px;
+    text-transform: uppercase;
+    color:#737373;
+    font-size:18px;
+    font-weight:bold;
+}
+
+h3 {
+    text-transform: uppercase;
+    color:#aaaaaa;
+    font-size:14px;
+    font-weight:bold;
+    margin: 0px;
+    margin-bottom:10px;
+    border-bottom:1px solid #aaaaaa;
+}
+
+table {
+    margin:0px;
+    margin-bottom:20px !important;
+}
+
+input.text, textarea.text {
+    border:1px solid silver;
+
+    border-radius:4px;
+    -khtml-border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+
+    width:250px;
+    margin-bottom:10px;
+}
+
+input.text:focus, textarea.text:focus {
+    border:1px solid #f2d975;
+}
+
+select {
+    margin-top:-2px;
+    margin-bottom:8px;
+}
+
+textarea.text {
+    width:410px;
+}
+
+.labelling {
+    clear:left;
+    padding:10px;
+    padding-bottom:0px;
+    margin:10px 0px;
+    border-radius:4px;
+    -khtml-border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    color:#737373;
+
+    border:1px solid #e2e2e2;
+}
+
+.labelling.odd {
+    background: #e2e2e2;
+}
+
+.labelling label {
+    float:left;
+    clear:left;
+    display:block;
+    width:320px;
+    font-weight:bold;
+}
+
+.labelling label.radio {
+    float:left;
+    width:auto;
+    padding-right:5px;
+    display: inline;
+    clear:none;
+    font-weight:normal;
+}
+
+.labelling label small{
+    font-weight: normal;
+}
+
+.labelling input {
+    margin-bottom:10px;
+}
+
+.labelling hr {
+    border:0px;
+    border-top:1px solid #e2e2e2;
+    margin:10px 0px;
+}
+
+.datepicker {
+    width:100px;
+    margin-right:100px;
+}
+
+.hasThumb {
+    clear:left;
+    font-size:12px;
+    padding-left: 320px;
+}
+
+
+.hasThumb img {
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.vos-articles {
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom:10px;
+}
+
+.vos-articles td.ctrl {
+    width:80px;
+}
+
+.vos-articles .ui-icon {
+    float:left;
+    width:20px;
+    margin-top:1px;
+}
+
+
+a, a:visited {
+    color:black;
+    font-weight:bold;
+    text-shadow:0px 0px 1px white;
+}
